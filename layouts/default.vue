@@ -7,7 +7,23 @@
     <!--    https://vuetifyjs.com/zh-Hans/features/layouts/#section-75284f8b-->
 
     <v-navigation-drawer v-model="drawer" app class="primary">
-      <p>test</p>
+      <!-- 这里 primary变成了紫色     主题 编辑 https://vuetifyjs.com/en/features/theme/#customizing-->
+      <v-list>
+        <v-list-item
+          v-for="(item, i) in items"
+          :key="i"
+          router
+          :to="item.to"
+          exact
+        >
+          <v-list-item-action>
+            <v-icon color="white">{{ item.icon }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="white--text" v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
     </v-navigation-drawer>
     <!--注意在不同大小的时候，navigation-drawer 盖不盖住toolbar的行为是不同的。窗口变大的时候，是推开的！-->
     <v-app-bar fixed app>
@@ -40,24 +56,24 @@ export default {
       fixed: false,
       items: [
         {
-          icon: 'mdi-apps',
-          title: 'Welcome',
+          icon: 'mdi-home',
+          title: 'Darshborad',
           to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire',
+          icon: 'mdi-card-text',
+          title: 'p04-text-and-color',
+          to: '/p04-text-and-color',
         },
         {
-          icon: 'mdi-home',
-          title: 'layout-test',
-          to: '/layout-test',
+          icon: 'mdi-gesture-tap-button',
+          title: 'p05-button-and-icons',
+          to: '/p05-button-and-icons',
         },
         {
-          icon: 'mdi-apps',
-          title: 'form-test',
-          to: '/form-test',
+          icon: 'mdi-format-page-break',
+          title: 'p06-breakpoints',
+          to: '/p06-breakpoints',
         },
       ],
       miniVariant: false,

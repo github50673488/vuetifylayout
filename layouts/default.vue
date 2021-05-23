@@ -6,6 +6,10 @@
   <v-app>
     <!--    https://vuetifyjs.com/zh-Hans/features/layouts/#section-75284f8b-->
 
+    <v-navigation-drawer v-model="drawer" app class="indigo">
+      <p>test</p>
+    </v-navigation-drawer>
+    <!--注意在不同大小的时候，navigation-drawer 盖不盖住toolbar的行为是不同的。窗口变大的时候，是推开的！-->
     <v-app-bar fixed app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
       <v-toolbar-title class="text-uppercase grey--text">
@@ -32,7 +36,7 @@ export default {
   data() {
     return {
       clipped: false,
-      drawer: false,
+      drawer: true,
       fixed: false,
       items: [
         {

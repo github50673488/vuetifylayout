@@ -61,6 +61,16 @@ export default {
           to: '/',
         },
         {
+          icon: 'mdi-projector-screen-outline',
+          title: 'my projects',
+          to: '/projects',
+        },
+        {
+          icon: 'mdi-microsoft-teams',
+          title: 'team',
+          to: '/team',
+        },
+        {
           icon: 'mdi-card-text',
           title: 'p04-text-and-color',
           to: '/p04-text-and-color',

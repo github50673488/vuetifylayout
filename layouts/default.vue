@@ -40,7 +40,7 @@
       </v-btn>
     </v-app-bar>
     <v-main>
-      <v-container>
+      <v-container class="mx-4 mb-4">
         <nuxt />
       </v-container>
     </v-main>
@@ -84,6 +84,11 @@ export default {
           icon: 'mdi-format-page-break',
           title: 'p06-breakpoints',
           to: '/p06-breakpoints',
+        },
+        {
+          icon: 'mdi-format-page-break',
+          title: '居中',
+          to: '/center',
         },
       ],
       miniVariant: false,

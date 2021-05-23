@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  name: 'C01TextAndColor',
+  name: 'P04TextAndColor',
 }
 </script>
 

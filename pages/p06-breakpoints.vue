@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="p06">
     <h1>This is the homepage</h1>
     <v-divider></v-divider>
 
@@ -12,11 +12,9 @@
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    // Logo,
-  },
+  name: 'P06Breakpoints',
 }
 </script>
+
+<style scoped></style>

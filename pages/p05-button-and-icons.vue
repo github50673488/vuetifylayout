@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  name: 'C02ButtonAndIcons',
+  name: 'P05ButtonAndIcons',
 }
 </script>
 

@@ -51,14 +51,14 @@ export default {
     theme: {
       // dark: false,
       themes: {
-        light: {
-          primary: '#9652ff',
-          success: '#3cd1c2',
-          info: '#ffaa2c',
-          error: '#f83e70',
-          secondary: '#b0bec5',
-          accent: '#8c9eff',
-        },
+        // light: {
+        //   primary: '#9652ff',
+        //   success: '#3cd1c2',
+        //   info: '#ffaa2c',
+        //   error: '#f83e70',
+        //   secondary: '#b0bec5',
+        //   accent: '#8c9eff',
+        // },
         dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,

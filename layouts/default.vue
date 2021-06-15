@@ -90,6 +90,16 @@ export default {
           title: '居中',
           to: '/center',
         },
+        {
+          icon: 'mdi-format-page-break',
+          title: 'p13-grid-system',
+          to: '/p13-grid-system',
+        },
+        {
+          icon: 'mdi-format-page-break',
+          title: 'layouttest',
+          to: '/layouttest',
+        },
       ],
       miniVariant: false,
       right: true,

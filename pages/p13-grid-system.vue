@@ -27,12 +27,12 @@
         </v-col>
       </v-row>
 
-      <v-row dense class="justify-end justify-space-around">
+      <v-row dense class="flex-row-reverse justify-space-around">
         <v-col cols="4" md="3">
-          <v-card outlined>row2-col1</v-card>
+          <v-card outlined class="success">row2-col1</v-card>
         </v-col>
         <v-col cols="4" md="3">
-          <v-card outlined>row2-col2</v-card>
+          <v-card outlined class="success">row2-col2</v-card>
         </v-col>
       </v-row>
     </v-container>
@@ -40,11 +40,7 @@
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    // Logo,
-  },
-}
+export default {}
 </script>
+
+<style scoped></style>

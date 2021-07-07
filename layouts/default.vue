@@ -97,6 +97,11 @@ export default {
         },
         {
           icon: 'mdi-format-page-break',
+          title: 'p210708-no-gutters-grid-system',
+          to: '/p210708-no-gutters-grid-system',
+        },
+        {
+          icon: 'mdi-format-page-break',
           title: 'layouttest',
           to: '/layouttest',
         },
